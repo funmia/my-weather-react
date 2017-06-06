@@ -10,11 +10,10 @@ class App extends Component {
     super()
       this.handleSelect = this.handleSelect.bind(this);
       this.fetchWeather = this.fetchWeather.bind(this);
-  }
-
-  state = {
-    city: 'london',
-    temperature: null
+      this.state = {
+        city: 'london',
+        temperature: null
+      }
   }
 
   componentDidMount() {
